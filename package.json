@@ -1,0 +1,37 @@
+{
+  "name": "merge-object-paths",
+  "version": "0.0.1",
+  "description": "A tiny library for merging values into an object at dot-notated paths.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "babel src -o index.js",
+    "test": "mocha --require babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayd/merge-object-paths.git"
+  },
+  "keywords": [
+    "javascript",
+    "object",
+    "merge"
+  ],
+  "author": {
+    "name": "Ray Di Ciaccio",
+    "email": "ray@appcues.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rayd/merge-object-paths/issues"
+  },
+  "homepage": "https://github.com/rayd/merge-object-paths#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "deep-freeze": "0.0.1",
+    "mocha": "^3.2.0"
+  }
+}
